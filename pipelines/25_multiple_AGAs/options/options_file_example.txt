@@ -1,0 +1,29 @@
+################################################################################
+# making AGA on HSC and lymphoid in bone marrow and liver
+# pDCs are also included
+name: lymphoids_bm_lv
+data1: bonemarrow_reference_annotation_10X.RDS
+data2: liver_F21F22F23_reference_annotation_10X.RDS
+set.ident.1: cell.labels
+set.ident.2: cell.labels
+tag1: BM
+tag2: LV
+categories1: HSPC, pro-B, pre-B, T cell, naïve B cell, pDC, pre pDC
+categories2: pro-B cell, B cell, pre-B cell, NK, Pre pro B cell, HSC/MPP, pDC precursor, ILC progenitor
+################################################################################
+# making AGA on HSC and a few myeloids in bone marrow, liver
+# pDCs are also included
+name: myeloids_bm_liver
+data1: bonemarrow_reference_annotation_10X.RDS
+data2: liver_F21F22F23_reference_annotation_10X.RDS
+data3: spleen_reference_annotation_10X.RDS
+set.ident.1: cell.labels
+set.ident.2: cell.labels
+set.ident.3: cell.labels
+tag1: BM
+tag2: LV
+tag2: SP
+categories1: myeloid precursor, HSPC, tissue macrophage, pDC, DC2
+categories2: Mono-Mac, DC2, Monocyte, HSC/MPP
+categories3: cDC2, HSC, Macrophage, Neut_Myeloid
+################################################################################

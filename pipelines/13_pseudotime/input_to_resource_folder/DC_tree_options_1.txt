@@ -1,0 +1,5 @@
+../../seurat_data/liver_all.RDS
+HSC, Neut-myeloid progenitor, Monocyte-DC progenitor, DC1
+HSC
+../../constant_inputs/liver_cell_type_colours.csv
+Fig5b_1

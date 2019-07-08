@@ -1,0 +1,4 @@
+file_name: ../../data/thymus.h5ad
+output_folder: ../../output/thymus_web_portal
+dr_coordonates: UMAP->X_umap; tSNE->X_tsne; FDG->X_draw_graph_fa;
+Cell Labels->Annotation->null;Flow gate->sort->null;Sample->sample->null;Gender->gender->null;

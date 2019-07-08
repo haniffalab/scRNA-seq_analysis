@@ -1,0 +1,4 @@
+file_name: ../../data/liver_all.RDS
+output_folder: ../../output/liver_web_portal
+dr_coordonates: UMAP->umap; tSNE->tsne; FDG->fdg;
+Cell Labels->cell.labels->../../resources/liver_cell_type_colours.csv;Cell Subsets->cell.labels->null;Flow gate->sort.ids->null;Sample->sample.ids->null;Gender->gender->null;

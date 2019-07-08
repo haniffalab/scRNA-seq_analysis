@@ -1,0 +1,4 @@
+file_name: ../../data/dummydata.RDS
+output_folder: ../../output/dummydata_web_portal
+dr_coordonates: UMAP->umap; tSNE->tsne; FDG->fdg;
+Cell Labels->Annotation_5->null;

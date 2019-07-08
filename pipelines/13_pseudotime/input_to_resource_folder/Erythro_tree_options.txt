@@ -1,0 +1,5 @@
+../../seurat_data/liver_all.RDS
+HSC, MEP, Early Erythroid, Mid  Erythroid, Late Erythroid
+HSC
+../../constant_inputs/liver_cell_type_colours.csv
+Fig3d_e

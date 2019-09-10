@@ -205,7 +205,7 @@ raw_data_genes = t(apply(raw_data_genes, 1, adaptive.moving_average, kernel = 15
 by.pdt.order = order(pseudotime$Pseudotime)
 
 dm.df = read.csv(file.path(output_folder_material, "dm.csv"), row.names = 1, header = F)
-dm.df = as.data.frame(dm.df[, 1:3])
+dm.df = as.data.frame(dm.df[, 2:4])
 
 dm.df$Labels = factor(seurat.obj@ident, levels = cell.labels)
 dm.df$Colours = mapvalues(x = dm.df$Labels, from = cell.labels, to = cell.colours)

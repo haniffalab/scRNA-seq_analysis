@@ -589,6 +589,12 @@ This repository contains tools for making web portals and interactive tools used
     * line 5: a short line describing the data which will be included in the interactive page
 * IMPORTANT NOTICE: if the vector partitioning the data (i.e. meta data column) is using integer indices (e.g. Louvain clustering which assigns integer identifies to clusters) it is highly recommended to pre-append the tag "Cluster\_" to all indices (e.g. "1" and "103" becomes "Cluster\_1" and "Cluster\_103" respectively). Failure to do so will not raise any errors, but the resulting interactive heatmap/dot plot will have glitches.
 
+* A version of this script (91b) creates a html file from an csv file containing expression levels (columns: genes, rows: cell types; first datacell is empty). For this, the option file format is:
+    * line 1: expressions csv data filepath
+    * line 2: name of output folder
+    * line 3: name of interactive html page
+    * line 4: a short line describing the data
+
 ### pseudotime_webportal.sh
 * see an example [here](https://developmentcellatlas.ncl.ac.uk/datasets/pseudotime_liver_blin/)
 * this creates a web portal useful for exploring the results of a trajectory analysis
